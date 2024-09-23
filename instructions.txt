@@ -1,0 +1,85 @@
+0100000101xxxxxx, adc register t1
+0001110xxxxxxxxx, add immediate t1
+00110xxxxxxxxxxx, add immediate t2
+0001100xxxxxxxxx, add register t1
+01000100xxxxxxxx, add register t2
+10101xxxxxxxxxxx, add sp plus immediate t1
+101100000xxxxxxx, add sp plus immediate t2
+01000100x1101xxx, add sp plus register t1
+010001001xxxx101, add sp plus register t2
+10100xxxxxxxxxxx, adr t1
+0100000000xxxxxx, and register t1
+00010xxxxxxxxxxx, asr immediate t1
+0100000100xxxxxx, asr register t1
+1101xxxxxxxxxxxx, b t1
+11100xxxxxxxxxxx, b t2
+0100001110xxxxxx, bic register t1
+10111110xxxxxxxx, bkpt t1
+11110xxxxxxxxxxx11x1xxxxxxxxxxxx, bl t1
+010001111xxxx000, blx register t1
+010001110xxxx000, bx t1
+0100001011xxxxxx, cmn register t1
+00101xxxxxxxxxxx, cmp immediate t1
+0100001010xxxxxx, cmp register t1
+01000101xxxxxxxx, cmp register t2
+10110110011x0010, cps t1
+1111001110111111100011110101xxxx, dmb t1
+1111001110111111100011110100xxxx, dsb t1
+0100000001xxxxxx, eor register t1
+1111001110111111100011110110xxxx, isb t1
+11001xxxxxxxxxxx, ldm t1
+01101xxxxxxxxxxx, ldr immediate t1
+10011xxxxxxxxxxx, ldr immediate t2
+01001xxxxxxxxxxx, ldr literal t1
+0101100xxxxxxxxx, ldr register t1
+01111xxxxxxxxxxx, ldrb immediate t1
+0101110xxxxxxxxx, ldrb register t1
+10001xxxxxxxxxxx, ldrh immediate t1
+0101101xxxxxxxxx, ldrh register t1
+0101011xxxxxxxxx, ldrsb register t1
+0101111xxxxxxxxx, ldrsh register t1
+00000xxxxxxxxxxx, lsl immediate t1
+0100000010xxxxxx, lsl register t1
+00001xxxxxxxxxxx, lsr immediate t1
+0100000011xxxxxx, lsr register t1
+00100xxxxxxxxxxx, mov immediate t1
+01000110xxxxxxxx, mov register t1
+0000000000xxxxxx, mov register t2
+11110011111011111000xxxxxxxxxxxx, mrs t1
+111100111000xxxx10001000xxxxxxxx, msr register t1
+0100001101xxxxxx, mul t1
+0100001111xxxxxx, mvn register t1
+1011111100000000, nop t1
+0100001100xxxxxx, orr register t1
+1011110xxxxxxxxx, pop t1
+1011010xxxxxxxxx, push t1
+1011101000xxxxxx, rev t1
+1011101001xxxxxx, rev16 t1
+1011101011xxxxxx, revsh t1
+0100000111xxxxxx, ror register t1
+0100001001xxxxxx, rsb immediate t1
+0100000110xxxxxx, sbc register t1
+1011111101000000, sev t1
+11000xxxxxxxxxxx, stm t1
+01100xxxxxxxxxxx, str immediate t1
+10010xxxxxxxxxxx, str immediate t2
+0101000xxxxxxxxx, str register t1
+01110xxxxxxxxxxx, strb immediate t1
+0101010xxxxxxxxx, strb register t1
+10000xxxxxxxxxxx, strh immediate t1
+0101001xxxxxxxxx, strh register t1
+0001111xxxxxxxxx, sub immediate t1
+00111xxxxxxxxxxx, sub immediate t2
+0001101xxxxxxxxx, sub register t1
+101100001xxxxxxx, sub sp minus immediate t1
+11011111xxxxxxxx, svc t1
+1011001001xxxxxx, sxtb t1
+1011001000xxxxxx, sxth t1
+0100001000xxxxxx, tst register t1
+11011110xxxxxxxx, udf t1
+111101111111xxxx1010xxxxxxxxxxxx, udf t2
+1011001011xxxxxx, uxtb t1
+1011001010xxxxxx, uxth t1
+1011111100100000, wfe t1
+1011111100110000, wfi t1
+1011111100010000, yeild t1
